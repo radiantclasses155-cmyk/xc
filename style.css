@@ -84,6 +84,7 @@
     width: 37vw;
     height:62vh;
     border-radius: 30%;
+    height: auto;
 }
 /*----------------------------------CONTENT-PHOTO----------------------------------*/
 
@@ -222,3 +223,4 @@ h1,h3{
 }
 /*----------------------------------TYPING-ANIMATION----------------------------------*/
 /* https://youtu.be/CqBEmgkR_fQ?si=56uNSY3fg6I6sBry */
+
