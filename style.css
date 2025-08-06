@@ -26,7 +26,19 @@
    font-weight: 800;
    cursor:default;
    background: transparent;
-   padding-left:40px;
+   text-decoration: none;
+   border-bottom:3px solid transparent;
+   transition : 3s ease;
+}
+
+.name a.red{
+   color:#B8860B;
+   border-bottom:3px solid #b74ba1;
+}
+
+.name a:hover{
+    color:silver;
+    border-bottom: 3px solid #B8860B; 
 }
 
 .nav-ops{
@@ -82,10 +94,12 @@
     color:white;
     font-size:15px;
     position:relative;
+    transition: 3s ease;
 }
 
 span{
     color:#B8860B;
+    transition : 3s ease;
 }
 
 h1,h3{
@@ -98,6 +112,8 @@ h1,h3{
     align-items: center;
     background-color: transparent;   
 }
+
+
 
 .fa-brands{
     background-color: transparent;
